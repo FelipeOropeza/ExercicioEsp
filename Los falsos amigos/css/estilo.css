@@ -1,0 +1,300 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+hr{
+	opacity: 15%;
+}
+
+h1{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#h1-extras{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #000;
+}
+
+#h1-palavras{
+	text-align: left;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+#p-popup{
+	text-align: center;
+	font-size: 15px;
+	color:#505050;
+	margin-top: 10px;
+}
+
+h4{
+	color:aquamarine;
+	margin-left: 20px;
+}
+
+html, body{
+	height:100%;
+	overflow-y: hidden;
+	background-color: aliceblue;
+}
+
+#body-extras{
+	color: #ffffff;
+}
+
+.center{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1280px;
+	margin:0 auto;
+	padding: 0 2%;
+}
+
+header{
+	padding: 20px 0;
+}
+
+.logo{
+	width:50%;
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.menu{
+	width:50%;
+	text-align: right;
+}
+
+.menu a{
+	color: rgb(126, 126, 126);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	margin-right: 10px;
+	padding: 20px 20px;
+	text-shadow: 
+               -1px -1px 0px rgb(255, 253, 253), 
+               -1px 1px 0px rgb(255, 255, 255),                    
+                1px -1px 0px rgb(255, 255, 255),                  
+                1px 0px 0px rgb(255, 255, 255);
+}
+.menu a:hover {
+	bottom: 0;
+	border-bottom: 4px solid #003347;
+	transition: .1s linear;
+}
+
+section.sobre{
+	height: calc(100% - 200px);
+	position:relative;
+}
+
+#estudo{
+	width: 550px;
+	height: 450px;
+	margin:30px 0px 40px;
+}
+
+.extras{
+	position:absolute;
+	bottom:0;
+	top:25px;
+	right: 100px;
+	width: 550px;
+	height:550px;
+	border-radius: 50%;
+	background-color: #bdcefc;
+	transition: all .3s;
+    border: 8px solid transparent;
+}
+
+.extras:hover{
+    border: 8px solid #003347;
+    border-radius: 50%;
+}
+
+.texto-sobre{
+	margin-top:130px;
+}
+
+.texto-sobre h2{
+	font-size:45px;
+}
+
+.texto-sobre p{
+	margin: 20px 0;
+	color:#505050;
+	font-size: 20px;
+	font-weight: bold;
+	max-width: 600px;
+}
+
+.texto-sobre button{
+	border:0;
+	background-color: #003347;
+	font-weight: bold;
+	border-radius: 25px;
+	width: 90px;
+	height: 30px;
+	cursor: pointer;
+	opacity: 100%;
+}
+
+.texto-sobre button a{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.texto-sobre button a:hover{
+	opacity:70%;
+	color:rgb(147, 247, 247);
+}
+
+#inteferce{
+	background-color: aliceblue;
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+#inteferce img{
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+
+#inteferce img:hover{
+	opacity: 70%;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+
+#inteferce figcaption{
+	font-size: 23px;
+	text-align: center;	
+	margin-top: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#inteferce figcaption:hover:after {           
+	content: " Bonito(a)";
+	font-size:20px;
+	color: #56beff;
+ }
+
+.membros1{
+	width: 250px;
+	height: 300px;
+	background-color: aliceblue;
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 100px;
+}
+
+.membros2{
+	width: 250px;
+	height: 300px;
+	background-color: aliceblue;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.popup{
+	position: fixed;
+	margin-left:650px;
+	margin-top: 30px;
+	width: 400px;
+	height: 350px;
+	background: #003347;
+	display:none;
+	border: 5px solid #003347;
+	border-radius: 10px;
+}
+
+#img-atv{
+	width: 390px;
+	height: 340px;
+	border-radius: 10px;
+}
+
+#img-atv:hover{
+	opacity: 80%;
+}
+
+#palavra-1{
+	margin-left: 200px;
+	width: 300px;
+	height: 100px;
+	background-color:aliceblue;
+}
+
+#palavra-1 a{
+	text-decoration: none;
+	margin-left: 20px;
+	color:aquamarine;
+	cursor: pointer;
+}
+
+#palavra-1 a:hover{
+	opacity: 70%;
+	color:#000;
+}
+
+.estilo{
+	background-color: #003347;
+	width: 280px;
+	height: 80px;
+	border-radius: 20px;
+	border: 3px solid #bdcefc;
+}
+
+#quiz{
+	background-color: #003347;
+	width: 570px;
+	height: 510px;
+	margin: auto;
+	margin-top: 20px;
+	border: 5px solid #56beff;
+	border-radius: 20px;
+}
+
+#quiz input{
+	margin-left: 20px;
+	color:#000;
+	padding: 4px 5px;
+	background-color: #7b9bf3;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 2px solid #003347;
+}
+
+#quiz input:hover{
+	color:#003347;
+	opacity: 70%;
+}
+
+details p{
+	margin-left: 20px;
+}
+
+summary{
+	display: block;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: aquamarine;
+	cursor: pointer;
+}

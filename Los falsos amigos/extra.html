@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Los falsos amigos</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content= "width=device=-width,Initial-scale=1.0"/>
+	<meta name="description Auto:Felipe Carvalho"/>
+	<link rel="shortcut icon" id="img" href="img/logo.png"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+</head>
+<body id="body-extras">
+    <header>
+        <div class="center">
+            <div class="logo">Actividad en pareja</div>
+           <div class="menu">
+            <a href="index.html">Home</a></li>
+            <a href="Integrantes.html">Miembros</a></li>
+            <a href="atividade.html">Actividad</a></li>
+            <a href="#">Cuestionario</a></li>
+        </div>
+        </div>
+        <br><hr size="1">
+    </header>
+    <h1 id="h1-extras">Prueba de actividad</h1><br>
+    <div id="quiz"><br>
+    <h4>Q1. ¿Qué son los falsos amigos?</h4><br>
+    <input type="radio" name="question1" id="correct1">&nbsp Son palabras que se parecen o son iguales, pero no tienen el mismo significado. <br>
+    <input type="radio" name="question1">&nbsp Son palabras que se parecen o son iguales y tienen el mismo significado.<br>
+    <input type="radio" name="question1">&nbsp Son palabras que no se parecen <br>
+    <input type="radio" name="question1">&nbsp No sé el significado  <br><br>
+
+    <h4>Q2. Siguiendo una lógica, cuál sería la "verdadera" traducción de la palabra Estofado</h4><br>
+    <input type="radio" name="question2">&nbsp Estante <br>
+    <input type="radio" name="question2">&nbsp Estufado <br>
+    <input type="radio" name="question2" id="correct2">&nbsp Estofado <br>
+    <input type="radio" name="question2">&nbsp Estufa <br><br>
+
+    <h4>Q3. Traduza as seguintes palavras: Assistir, Aderezo, Salada e Balcón </h4><br>
+    <input type="radio" name="question3" >&nbsp Assitir, Endereço, Salgada e Balcão <br>
+    <input type="radio" name="question3" id="correct3">&nbsp Frenquentar, Tempero, Salgada e Sacada <br>
+    <input type="radio" name="question3">&nbsp Frenquentar, Tempero, Salada e Sacada <br>
+    <input type="radio" name="question3">&nbsp Assitir, Tempero, Salada e Balcão <br><br>
+
+    <input type="submit" name="submit" value="Enviar" onClick="result()">
+    <details>
+        <summary>Comentario</summary>
+        <p>A, C e B</p>
+    </details>
+
+    </div>
+
+    <script type="text/javascript">
+    function result()
+    {
+	var score=0;
+	if(document.getElementById('correct1').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct2').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct3').checked)
+		{	score++;
+		}
+        alert("Tu puntuación es: "+ score);
+    }
+</script>
+</body>
+</html>
